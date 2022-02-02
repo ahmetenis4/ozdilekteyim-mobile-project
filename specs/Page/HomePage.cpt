@@ -1,0 +1,35 @@
+Created by testinium on 31.01.2022
+
+This is a concept file with following syntax for each concept.
+# Özdilekteyim uygulamasının açıldığını kontrol et
+* id "com.ozdilek.ozdilekteyim:id/textView" li elementi bul ve "Mağazadan Alışveriş" alanını kontrol et
+# Alışverişe başla butonuna tıklanır
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" İd'li elemente tıkla
+# Alışveriş sayfasının açıldığı kontrol edilir
+* id "com.ozdilek.ozdilekteyim:id/largeLabel" li elementi bul ve "Anasayfa" alanını kontrol et
+# Katagoriler butonuna tıklanır
+* "com.ozdilek.ozdilekteyim:id/nav_categories" İd'li elemente tıkla
+# Katagoriler sayfasının açıldığı kontrol edilir
+* xpath "//android.widget.LinearLayout[@content-desc='Markalar']/android.widget.TextView" li elementi bul ve "Markalar" alanını kontrol et
+# Menüden kadın seçeneğine tıklanır
+* "//android.widget.TextView[@text='Kadın']" xpath'li elemente tıkla
+# Pantolon katagorisi tıklanır
+* "//android.widget.TextView[@text='Pantolon']" xpath'li elemente tıkla
+# Random ürün secilir
+* Element "//*[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']" ile random bir ürün seç ve tıkla
+# Ürün detay sayfasının acıldıgı kontrol edilir
+* xpath "//android.widget.TextView[@text='Renk:']" li elementi bul ve "Renk:" alanını kontrol et
+# Favoriler butonuna tıklanır
+* "com.ozdilek.ozdilekteyim:id/imgFav" İd'li elemente tıkla
+# Ürün sayfasının acıldıgı kontrol edilir
+* id "com.ozdilek.ozdilekteyim:id/tvForgetPassword" li elementi bul ve "Parolamı Unuttum" alanını kontrol et
+# Kullanıcı adı alanına text yazılır
+* id "com.ozdilek.ozdilekteyim:id/etEposta" li elementi bul ve "ahmet.@hatay.com" değerini yaz
+# Pasword alanına sifre yazılır
+* id "com.ozdilek.ozdilekteyim:id/etPassword" li elementi bul ve "12345" değerini yaz
+# Geri butonuna tıklanır
+* "com.ozdilek.ozdilekteyim:id/ivBack" İd'li elemente tıkla
+# Sepete ürün eklenir
+* "com.ozdilek.ozdilekteyim:id/cardAddToCart" İd'li elemente tıkla
+
+
